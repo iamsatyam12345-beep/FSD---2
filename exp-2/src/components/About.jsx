@@ -11,7 +11,8 @@ export default function About() {
   return (
     <>
       <Stack direction="row" spacing={2} alignItems="center">
-        <Avatar alt="jas" src="/static/images/avatar/1.jpg" />
+        <Avatar alt="J
+        as" src="/static/images/avatar/1.jpg" />
         <h2>Welcome to About Page</h2>
       </Stack>
 
