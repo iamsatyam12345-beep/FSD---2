@@ -8,7 +8,7 @@ export default function Home() {
           Welcome to Home Page
         </Typography>
         <Typography variant="body1">
-          This is a Single Page Application built using React Router by Jasmeen_75
+          This is a Single Page Application built using React Router by Satyam_56
         </Typography>
       </CardContent>
     </Card>
