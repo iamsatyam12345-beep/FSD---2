@@ -1,3 +1,3 @@
 export function validateForm(name){
-   return name.length > 0;
+ return name.length > 0;
 }

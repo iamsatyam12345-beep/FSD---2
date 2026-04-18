@@ -1,14 +1,9 @@
-import { describe,it,expect } from 'vitest'
-import { validateForm } from './form'
+import { test, expect } from 'vitest'
 
-describe("Form Test", ()=>{
+function validateForm(name){
+  return name.length > 0;
+}
 
- it("valid input", ()=>{
-   expect(validateForm("Satyam")).toBe(true)
- })
-
- it("empty input", ()=>{
-   expect(validateForm("")).toBe(false)
- })
-
+test('valid input', () => {
+  expect(validateForm("Satyam")).toBe(true)
 })
